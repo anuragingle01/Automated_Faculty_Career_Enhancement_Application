@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faculty Event Application Form</title>
+</head>
+<body>
+<h2>Faculty Event Application Form</h2>
+<form action="/submit" method="post">
+  <label for="name">Name of Faculty/Staff:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="designation">Designation:</label><br>
+  <input type="text" id="designation" name="designation"><br><br>
+
+  <label for="academic-year">Academic Year:</label><br>
+  <input type="text" id="academic-year" name="academic-year"><br><br>
+
+  <label for="term">Term:</label><br>
+  <input type="text" id="term" name="term"><br><br>
+
+  <label for="school">School:</label><br>
+  <select id="school" name="school">
+    <option value="ENTC">ENTC</option>
+    <option value="Computer Engineering">Computer Engineering</option>
+    <option value="Mechanical Engineering">Mechanical Engineering</option>
+    <option value="Civil Engineering">Civil Engineering</option>
+    <option value="Chemical Engineering">Chemical Engineering</option>
+    <option value="Design">Design</option>
+    <option value="Humanities and Engineering Sciences">Humanities and Engineering Sciences</option>
+  </select><br><br>
+
+  <label for="event-name">Name of Event:</label><br>
+  <input type="text" id="event-name" name="event-name"><br><br>
+
+  <label for="event-category">Category of Event:</label><br>
+  <select id="event-category" name="event-category">
+    <option value="Academics">Academics</option>
+    <option value="Research">Research</option>
+    <option value="Quality">Quality</option>
+    <option value="Extracurricular & Co-curricular">Extracurricular & Co-curricular</option>
+    <option value="Training & Placement">Training & Placement</option>
+    <option value="Professional Development">Professional Development</option>
+  </select><br><br>
+
+  <label for="event-type">Event Type:</label><br>
+  <select id="event-type" name="event-type">
+    <option value="State">State</option>
+    <option value="National">National</option>
+    <option value="International">International</option>
+  </select><br><br>
+
+  <label for="organized-by">Organized By:</label><br>
+  <input type="text" id="organized-by" name="organized-by"><br><br>
+
+  <label for="venue">Venue:</label><br>
+  <input type="text" id="venue" name="venue"><br><br>
+
+  <label for="duration">Duration (From Date - To Date):</label><br>
+  <input type="text" id="duration" name="duration"><br><br>
+
+  <label for="paper-title">Paper Title (if applicable):</label><br>
+  <input type="text" id="paper-title" name="paper-title"><br><br>
+
+  <label for="manuscript-approved">Manuscript Approved by DRC and RRC:</label><br>
+  <select id="manuscript-approved" name="manuscript-approved">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select><br><br>
+
+  <label for="registration-fees">Registration Fees:</label><br>
+  <input type="text" id="registration-fees" name="registration-fees"><br><br>
+
+  <label for="travelling-accommodation">Travelling + Accommodation Expenses (Approximately):</label><br>
+  <input type="text" id="travelling-accommodation" name="travelling-accommodation"><br><br>
+
+  <label for="total-expenses">Total Expenses:</label><br>
+  <input type="text" id="total-expenses" name="total-expenses"><br><br>
+
+  <label for="benefit-type">Type of Benefit from Event:</label><br>
+  <input type="text" id="benefit-type" name="benefit-type"><br><br>
+
+  <label for="benefit-details">Tentative Date, Target Audience, Venue for Benefit Dissemination:</label><br>
+  <input type="text" id="benefit-details" name="benefit-details"><br><br>
+
+  <label for="financial-assistance">Financial Assistance Already Availed (This Academic Year):</label><br>
+  <input type="text" id="financial-assistance" name="financial-assistance"><br><br>
+
+  <label for="pdl-availment">Total Professional Development Leave (PDL) Availed (This Academic Year):</label><br>
+  <input type="text" id="pdl-availment" name="pdl-availment"><br><br>
+
+  <label for="supported-by-society">Supported by Professional Society:</label><br>
+  <input type="text" id="supported-by-society" name="supported-by-society"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
